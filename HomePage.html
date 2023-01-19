@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spotifeel</title>
+    <style>
+      body {
+        font-family: Verdana, sans-serif;
+        margin: 0;
+      }
+      header {
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+      }
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        margin: 0 20px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+      }
+      nav a:hover {
+        color: rgba(30,215,96,255);
+      }
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 87.5px;
+      }
+      section {
+        background-color: white;
+        border: 1px solid rgba(30,215,96,255);
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 30%;
+      }
+      footer {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      img {
+        height: 100px;
+      }
+      .section-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        margin: 20px 0;
+      }
+      .section-image img {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="https://drive.google.com/uc?id=1ikeBkFXe4VIq1Vm-95grsatdqnMk693x" alt="Spotifeel logo">
+      <nav>
+        <ul>
+          <li><a href="/mood_analysis">Mood Analysis</a></li>
+          <li><a href="/data_analysis">Data Analysis</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <div class="section-image">
+          <img src="https://drive.google.com/uc?id=1eEP1kVMZKCXJyHds1zPG5LxE9gjgg9QP" alt="Us">
+        </div>
+        <h2>About Us</h2>
+        <p>Spotifeel is a machine learning driven song analysis project with the aim of determining the mood of songs to give users an outlet for experiencing/enhancing their emotions from day to day. Please enjoy the mood and data analysis features our site has to offer.</p>
+      </section>
+      <section id="mood_analysis">
+        <div class="section-image">
+          <img src="https://drive.google.com/uc?id=11jAAYol1LBqDbBpeCOP_68UReR4wOmVk" alt="Mood">
+        </div>
+        <h2>Mood Analysis</h2>
+        <p>With Spotifeel, you can determine the mood of inputted songs alongside being able to generate endless playlists of songs to fit your mood that will be automatically appended to your Spotify account. This allows you to further experience your emotions as they come as well as potentially discovering new artists along the way. (see the top right for this feature)</p>
+      </section>
+      <section id="data_analysis">
+        <div class="section-image">
+          <img src="https://drive.google.com/uc?id=1G5SrFeRrIELelMouVDR_WNcmPq8TvcgO" alt="Data">
+        </div>
+        <h2>Data Analysis</h2>
+        <p>Furthermore, our data analyis feature allows you to view your track listening history and mood listening history over short, medium and long terms. Personally we feel these are highly interesting statistics to view from both a curiousity standpoint or to hopefully further your emotional understanding of yourself. (see the top right for this feature)</p>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright 2021 Spotifeel</p>
+      <img src="https://drive.google.com/uc?id=1ikeBkFXe4VIq1Vm-95grsatdqnMk693x" alt="Spotifeel logo">
+    </footer>
+  </body>
+</html>
